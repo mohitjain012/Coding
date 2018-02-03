@@ -1,0 +1,1 @@
+hadoop jar MapReduce-0.0.1-SNAPSHOT.jar Coding.MapReduce.InvertedIndex.Driver /Coding/Data/InvertedIndex/in/doc1.txt /Coding/Data/InvertedIndex/in/doc2.txt /Coding/Data/InvertedIndex/in/doc3.txt /Coding/Data/InvertedIndex/out

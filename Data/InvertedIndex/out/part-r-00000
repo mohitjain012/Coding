@@ -1,0 +1,6 @@
+bat	doc1.txt
+cat	doc2.txt,doc1.txt
+dog	doc2.txt
+mat	doc1.txt,doc3.txt
+rat	doc3.txt
+sat	doc2.txt,doc1.txt

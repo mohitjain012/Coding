@@ -1,1 +1,0 @@
-hadoop jar MapReduce-0.0.1-SNAPSHOT.jar Coding.MapReduce.InvertedIndex.Driver C:\Users\Mohit\eclipse-workspace\Coding\Data\InvertedIndex\doc1.txt C:\Users\Mohit\eclipse-workspace\Coding\Data\InvertedIndex\doc2.txt C:\Users\Mohit\eclipse-workspace\Coding\Data\InvertedIndex\out
