@@ -1,9 +1,5 @@
 package Coding.Java.ColectionsPractice.Comparable;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class CustomerComparable implements Comparable<CustomerComparable> {
 
 	int age;

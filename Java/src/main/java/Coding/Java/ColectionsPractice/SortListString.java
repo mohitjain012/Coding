@@ -13,16 +13,18 @@ public class SortListString {
 		data.add("ankur jagga");
 		data.add("shweta chauhan");
 		data.add("garima jain");
+
 		System.out.println("----Records before sorting----");
 		for(String s:data) {
 			System.out.println(s);
 		}
-		System.out.println("----Records after sorting----");
+
 		Collections.sort(data);
+		System.out.println("----Records after sorting----");
 		for(String s:data) {
 			System.out.println(s);
 		}
-		
+
 	}
 
 }

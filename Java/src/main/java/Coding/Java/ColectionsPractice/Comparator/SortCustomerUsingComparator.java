@@ -20,35 +20,38 @@ public class SortCustomerUsingComparator {
 		System.out.println("----Records before sorting----");
 		for(Customer c:customers)
 			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
+		
+		CustomerAgeComparator ageCompare = new CustomerAgeComparator();
+		CustomerNameComparator nameCompare = new CustomerNameComparator();
+		CustomerIdComparator idCompare = new CustomerIdComparator();
 
-		Collections.sort(customers,new CustomerAgeComparator());
+		Collections.sort(customers,ageCompare);
 		System.out.println("----Records after sorting on age----");
 		for(Customer c:customers)
 			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
 
-		Collections.sort(customers,new CustomerNameComparator());
+		Collections.sort(customers,nameCompare);
 		System.out.println("----Records after sorting on name----");
 		for(Customer c:customers)
 			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
 
-		Collections.sort(customers,new CustomerIdComparator());
+		Collections.sort(customers,idCompare);
 		System.out.println("----Records after sorting on id----");
 		for(Customer c:customers)
 			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
 
 
-
-		customers.sort(new CustomerAgeComparator());
+		customers.sort(ageCompare);
 		System.out.println("----Records after sorting on age----");
 		for(Customer c:customers)
 			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
 
-		customers.sort(new CustomerNameComparator());
+		customers.sort(nameCompare);
 		System.out.println("----Records after sorting on name----");
 		for(Customer c:customers)
 			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
 
-		customers.sort(new CustomerIdComparator());
+		customers.sort(idCompare);
 		System.out.println("----Records after sorting on id----");
 		for(Customer c:customers)
 			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
