@@ -1,4 +1,4 @@
-package Coding.Java.ColectionsPractice;
+package Coding.Java.ColectionsPractice.Comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -40,21 +40,5 @@ public class CustomerComparable implements Comparable<CustomerComparable> {
 			return 0;
 		else
 			return 1;
-	}
-}
-
-class MainTestClass{
-	public static void main(String s) {
-		List<CustomerComparable> customers = new ArrayList<CustomerComparable>();
-		CustomerComparable c1 = new CustomerComparable(26,"Shweta",1);
-		CustomerComparable c2 = new CustomerComparable(28,"Ankur",2);
-		CustomerComparable c3 = new CustomerComparable(32,"Garima",4);
-		CustomerComparable c4 = new CustomerComparable(26,"Mohit",3);
-		customers.add(c1);customers.add(c2);customers.add(c3);customers.add(c4);
-		for(CustomerComparable c:customers)
-			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
-		Collections.sort(customers);
-		for(CustomerComparable c:customers)
-			System.out.println("age="+c.age+" name="+c.name+" id="+c.customerId);
 	}
 }

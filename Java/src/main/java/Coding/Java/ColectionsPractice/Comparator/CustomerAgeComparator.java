@@ -1,6 +1,8 @@
-package Coding.Java.ColectionsPractice;
+package Coding.Java.ColectionsPractice.Comparator;
 
 import java.util.Comparator;
+
+import Coding.Java.ColectionsPractice.Customer;
 
 public class CustomerAgeComparator implements Comparator<Customer>{
 

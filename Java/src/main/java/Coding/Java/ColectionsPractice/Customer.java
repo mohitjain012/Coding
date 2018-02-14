@@ -1,11 +1,11 @@
 package Coding.Java.ColectionsPractice;
 
 public class Customer {
-	int age;
-	String name;
-	int customerId;
+	public int age;
+	public String name;
+	public int customerId;
 	
-	Customer(int age, String name, int id){
+	public Customer(int age, String name, int id){
 		this.age=age;this.name=name;customerId=id;
 	}
 	
